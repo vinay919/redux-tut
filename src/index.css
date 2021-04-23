@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Cart-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+  width: 500px;
+}
+.img-wrapper>img{
+  width: 100px;
+}
+.item{
+  padding: 5px;
+}
+.btn-wrapper>button{
+  background-color: red;
+  color:white;
+  padding: 5px;
+  border-radius: 4px;
+  border:1px solid red;
+  cursor: pointer;
+}
+
+.add-to-cart>img{
+  width: 50px;
+  position: absolute;
+  right: 20px;
+}
